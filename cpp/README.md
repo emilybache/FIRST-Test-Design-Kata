@@ -1,5 +1,5 @@
-Sample project
-==============
+FIRST Test Design
+=================
 
-This is a C++ empty starter project.
+See the [top level README](https://github.com/emilybache/FIRST-Test-Design-Kata)
 
