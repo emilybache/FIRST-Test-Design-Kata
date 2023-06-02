@@ -10,7 +10,7 @@ using namespace std;
 
 TEST_CASE ("Leap Years") {
     SECTION("normal year") {
-        REQUIRE(isLeapYear(2004) == true);
+        REQUIRE(isLeapYear(2003) == false);
     }
 }
 
