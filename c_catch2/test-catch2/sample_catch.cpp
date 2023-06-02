@@ -1,12 +1,16 @@
 #include "ApprovalTests.hpp"
 #include "catch2/catch.hpp"
 
+extern "C"
+{
 #include "sample.h"
+}
+
 using namespace std;
 
-TEST_CASE ("Sample") {
-    SECTION("sample section") {
-        REQUIRE(true == false);
+TEST_CASE ("Leap Years") {
+    SECTION("normal year") {
+        REQUIRE(isLeapYear(2003) == false);
     }
 }
 
